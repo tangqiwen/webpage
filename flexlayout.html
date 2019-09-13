@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bingo</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<style  type="text/css">
+	.container{
+	  width:100%;
+	  height:800px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  background-color: rgb(119,193,98);
+	}
+
+	.box {
+	  background-color: white;
+	  width:350px;
+	  height:300px;
+	  margin:0 auto;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  //border:2px solid darkslategray;
+      box-shadow:  0px 0px 4px 1px #888;
+	}
+</style>
+<body>
+<div class="container" >
+	  <div class="box">	
+		<div class="input-group" style="margin:5px;width:280px;">		  
+		  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" style="height:50px" required>
+		</div>
+
+		<div class="input-group" style="margin:5px;width:280px">
+		  <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2" style="height:50px" required>		  
+		</div>
+		<div class="input-group" style="margin:5px">
+			<button type="button" class="btn btn-success " style="width:280px;height:50px;background-color:rgb(26,175,71)">LOGIN</button>
+		</div>
+		
+	  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
